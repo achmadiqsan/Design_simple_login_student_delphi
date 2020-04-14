@@ -1,0 +1,37 @@
+object Frame2: TFrame2
+  Size.Width = 850.000000000000000000
+  Size.Height = 500.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle4: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 850.000000000000000000
+    Size.Height = 500.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    object Label6: TLabel
+      Align = Center
+      StyledSettings = [FontColor]
+      Size.Width = 193.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Montserrat'
+      TextSettings.Font.Size = 36.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Welcome!'
+    end
+    object Button2: TButton
+      StyledSettings = [Style, FontColor]
+      Position.X = 823.000000000000000000
+      Size.Width = 33.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      TabOrder = 1
+      Text = 'X'
+      TextSettings.Font.Family = 'Montserrat ExtraLight'
+      TextSettings.Font.Size = 26.000000000000000000
+      OnClick = Button2Click
+    end
+  end
+end
